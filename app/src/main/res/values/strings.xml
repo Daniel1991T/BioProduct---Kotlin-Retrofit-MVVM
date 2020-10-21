@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Bio Products</string>
+    //login
+    <string name="app_name_title">Bio Products</string>
+    <string name="login_subtitle">Let\'s join us and help local community!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="login_to_register">If You Don"t Have An Account! Click Here!</string>
+
+    //register
+    <string name="register_to_login">If You Have An Account! Click Here!</string>
+    <string name="register">Register</string>
+    <string name="radio_button_check_producer">Producer</string>
+    <string name="radio_button_check_client">Client</string>
+    <string name="email_empty">Enter an email</string>
+    <string name="email_invalid">Email invalid</string>
+    <string name="password_empty">Enter a password</string>
+    <string name="password_length">Password length must have al least 8 character!</string>
+    <string name="password_upper_case">Password must have at least one uppercase character!</string>
+    <string name="password_lower_case">Password must have at least one lowercase character!</string>
+    <string name="password_digit_case">Password must have at least one digit character!</string>
+    <string name="password_match">Passwords do not match</string>
+    <string name="field_empty">Field empty</string>
+</resources>
