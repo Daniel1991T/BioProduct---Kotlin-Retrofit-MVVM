@@ -22,4 +22,22 @@
     <string name="password_digit_case">Password must have at least one digit character!</string>
     <string name="password_match">Passwords do not match</string>
     <string name="field_empty">Field empty</string>
+
+    //Profile
+    <string name="create_profile">Update Profile</string>
+    <string name="full_name">Full Name</string>
+    <string name="set_profile_image">Add a profile image</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="short_bio">Short Bio</string>
+    <string name="image_profile">image for profile</string>
+    <string name="product_type">Product Type</string>
+    <string name="update">update</string>
+    <string name="ok">OK</string>
+    <string name="dismis">CANCEL</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="profile_set_phone">Enter number phone</string>
+    <string name="profile_set_address">Enter address</string>
+    <string name="profile_set_bio">Enter a short bio</string>
+    <string name="profile_set_product_type">Enter a product type</string>
 </resources>

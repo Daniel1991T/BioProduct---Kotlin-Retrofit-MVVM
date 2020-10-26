@@ -36,6 +36,19 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
     private fun signInUser() {
         val email = tv_login_email.text.toString()
         val password = tv_login_password.text.toString()
+        if (email.isEmpty()) {
+            til_login_email.error = getString(R.string.field_empty)
+            return
+        } else {
+            til_login_email.error = null
+        }
+
+        if (password.isEmpty()) {
+            til_login_password.error = getString(R.string.field_empty)
+            return
+        } else {
+            til_login_password.error = null
+        }
         firebaseAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener { task ->
             if (!task.isSuccessful) {
                 FancyToast.makeText(context, task.exception?.message, FancyToast.ERROR, FancyToast.LENGTH_SHORT, false).show()
