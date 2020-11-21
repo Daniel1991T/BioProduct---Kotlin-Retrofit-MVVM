@@ -59,4 +59,5 @@
 
     <string name="create_post">Create New Post</string>
     <string name="view_my_post">My Post</string>
+    <string name="username">Username</string>
 </resources>
