@@ -16,7 +16,7 @@
     <string name="email_empty">Enter an email</string>
     <string name="email_invalid">Email invalid</string>
     <string name="password_empty">Enter a password</string>
-    <string name="password_length">Password length must have al least 8 character!</string>
+    <string name="password_length">Password length must have al least %d character!</string>
     <string name="password_upper_case">Password must have at least one uppercase character!</string>
     <string name="password_lower_case">Password must have at least one lowercase character!</string>
     <string name="password_digit_case">Password must have at least one digit character!</string>
@@ -40,4 +40,23 @@
     <string name="profile_set_address">Enter address</string>
     <string name="profile_set_bio">Enter a short bio</string>
     <string name="profile_set_product_type">Enter a product type</string>
+    <string name="vegetable_category">Vegetable</string>
+    <string name="meat_category">meat</string>
+    <string name="cheese_category">cheese</string>
+    <string name="fruit_category">fruit</string>
+    <string name="diverse_category">Diverse</string>
+    <string name="my_profile_category">My Profile</string>
+
+
+    //fragment name
+    <string name="vegetable_fragment">VEGETABLE PRODUCTS</string>
+    <string name="cheese_fragment">CHEESE PRODUCTS</string>
+    <string name="meat_fragment">MEAT PRODUCTS</string>
+    <string name="fruit_fragment">FRUIT PRODUCTS</string>
+    <string name="diverse_fragment">DIVERSE PRODUCTS</string>
+    <string name="my_profile_fragment">MY PROFILE</string>
+
+
+    <string name="create_post">Create New Post</string>
+    <string name="view_my_post">My Post</string>
 </resources>

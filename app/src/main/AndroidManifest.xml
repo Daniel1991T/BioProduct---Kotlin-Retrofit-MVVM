@@ -10,8 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BioProducts">
-        <activity android:name=".ui.MainActivity" />
-        <activity android:name=".auth.support.AuthenticationActivity">
+        <activity android:name=".ui.MainActivity"
+            android:label="@string/app_name_title"/>
+        <activity android:name=".auth.AuthenticationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

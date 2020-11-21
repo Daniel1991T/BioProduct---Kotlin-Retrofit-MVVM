@@ -5,7 +5,6 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.compani.ilai.bioproducts.data.entities.Producer
-import com.compani.ilai.bioproducts.data.remote.BioProductDatabase
 import com.compani.ilai.bioproducts.utils.Resource
 import com.google.android.gms.tasks.Task
 

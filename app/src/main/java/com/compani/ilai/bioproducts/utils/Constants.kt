@@ -20,4 +20,5 @@ object Constants {
             "[a-zA-Z0-9][a-zA-Z0-9\\-]{0,25}" +
             ")+"
 
+    const val MIN_PASSWORD_LENGTH = 8
 }

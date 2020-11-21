@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main_nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.compani.ilai.bioproducts.ui.MainFragment"
+        android:label="@string/app_name_title">
+        <action
+            android:id="@+id/action_mainFragment_to_cheeseFragment"
+            app:destination="@id/cheeseFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_diverseFragment"
+            app:destination="@id/diverseFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_fruitFragment"
+            app:destination="@id/fruitFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_meatFragment"
+            app:destination="@id/meatFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_vegetablesFragment"
+            app:destination="@id/vegetablesFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_myProfileFragment"
+            app:destination="@id/myProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cheeseFragment"
+        android:name="com.compani.ilai.bioproducts.ui.productType.cheese.CheeseFragment"
+        android:label="@string/cheese_fragment" />
+    <fragment
+        android:id="@+id/diverseFragment"
+        android:name="com.compani.ilai.bioproducts.ui.productType.diverse.DiverseFragment"
+        android:label="@string/diverse_fragment" />
+    <fragment
+        android:id="@+id/fruitFragment"
+        android:name="com.compani.ilai.bioproducts.ui.productType.fruit.FruitFragment"
+        android:label="@string/fruit_fragment" />
+    <fragment
+        android:id="@+id/meatFragment"
+        android:name="com.compani.ilai.bioproducts.ui.productType.meat.MeatFragment"
+        android:label="@string/meat_fragment" />
+    <fragment
+        android:id="@+id/vegetablesFragment"
+        android:name="com.compani.ilai.bioproducts.ui.productType.vegetables.VegetablesFragment"
+        android:label="@string/vegetable_fragment" />
+    <fragment
+        android:id="@+id/myProfileFragment"
+        android:name="com.compani.ilai.bioproducts.ui.setting.MyProfileFragment"
+        android:label="@string/my_profile_fragment" />
+</navigation>
